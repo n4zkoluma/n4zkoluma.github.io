@@ -1,5 +1,5 @@
-import Footer from "../../components/footer/footer";
-import Header from "../../components/header/header";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 import './MainPage.css';
 
 import space_1 from "../../images/space.webp";
