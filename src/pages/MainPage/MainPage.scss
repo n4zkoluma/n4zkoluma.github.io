@@ -1,0 +1,41 @@
+$text: rgb(55, 55, 55);
+$textBright: rgb(213, 226, 221);
+$background: rgb(213, 226, 221);
+$primary: rgb(248, 126, 64);
+$primaryDark: rgb(55, 55, 55);
+$secondary: rgb(239, 106, 48);
+$accent: rgb(78, 183, 180);
+$bRadius: .75rem;
+
+@media (max-width: 1000px) {
+  article.index {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+article.index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em;
+  margin: 1em;
+
+  border-radius: $bRadius;
+  box-shadow: 0 1px 3px 0 rgba(37, 32, 31, .3);
+
+  section {
+    img {
+      max-width: 50vw;
+      max-height: 50vh;
+      border-radius: $bRadius;
+      margin: 1em;
+    }
+  }
+
+  .text {
+    margin: 2vw;
+  }
+}
