@@ -14,6 +14,7 @@ function AppRouter() {
                 <Route path="/maps" element={<Maps />}/>
                 <Route path="/news" element={<News />}/>
                 <Route path="/articles" element={<Articles />}/>
+                <Route path={"/articles/:name"} element={''}/>
             </Routes>
         </BrowserRouter>
     );
