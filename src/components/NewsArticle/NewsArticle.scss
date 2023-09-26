@@ -1,0 +1,58 @@
+$text: rgb(55, 55, 55);
+$textBright: rgb(213, 226, 221);
+$background: rgb(213, 226, 221);
+$primary: rgb(248, 126, 64);
+$primaryDark: rgb(55, 55, 55);
+$secondary: rgb(239, 106, 48);
+$accent: rgb(78, 183, 180);
+$bRadius: .75rem;
+div.containerForContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  div.newsContainer {
+    max-width: fit-content;
+    margin: 2vh;
+    border: $text;
+    background: $background;
+    border-radius: $bRadius;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  }
+
+
+div.newsArticle {
+  margin: 2vh;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
+  section.articleImage {
+    flex: 1;
+
+    img {
+      margin-right: 5vh;
+      max-height: 15vw;
+      border-radius: $bRadius;
+    }
+  }
+
+  section.articleText {
+    flex: 3;
+
+    h1.articleHeader {
+      color: $text;
+    }
+
+    text.articleText {
+      color: $text;
+    }
+
+    a {
+      color: $text;
+      text-decoration: none;
+    }
+  }
+}
