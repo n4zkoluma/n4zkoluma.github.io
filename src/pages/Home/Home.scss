@@ -1,0 +1,42 @@
+$text: rgb(55, 55, 55);
+$textBright: rgb(213, 226, 221);
+$background: rgb(213, 226, 221);
+$primary: rgb(248, 126, 64);
+$primaryDark: rgb(55, 55, 55);
+$secondary: rgb(239, 106, 48);
+$accent: rgb(78, 183, 180);
+$bRadius: .75rem;
+
+body {
+  background: #25282e;
+}
+
+div.App {
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    header {
+      position: sticky;
+      z-index: 9;
+      flex: 5;
+
+      min-width: 95vw;
+    }
+
+    div.bgGif{
+      margin: 0;
+      position: absolute;
+
+
+      background: no-repeat url("../../images/Home.gif");
+      background-size: 100% auto;
+
+      width: 100vw;
+      height: 100vh;
+
+      min-height: 400px;
+      max-width: 100vw!important;
+    }
+  }
+}

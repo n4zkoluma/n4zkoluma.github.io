@@ -7,6 +7,8 @@ $secondary: rgb(239, 106, 48);
 $accent: rgb(78, 183, 180);
 $bRadius: .75rem;
 
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa&display=swap');
 
@@ -17,8 +19,8 @@ $bRadius: .75rem;
   }
 }
 
-#toggle {
-  font-family: 'Comfortaa', cursive;
+/* #toggle {
+  font-family: 'Tektur', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +41,7 @@ $bRadius: .75rem;
 
 #toggle:hover {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
-}
+} */
 
 body {
   display: flex;
@@ -50,13 +52,13 @@ body {
   padding: 0;
   max-width: 100vw;
 
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Tektur', sans-serif;
   color: $textBright;
   z-index: 0;
 }
 
 p, h2, strong, li {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Tektur', sans-serif;
   color: $text;
 }
 
@@ -64,70 +66,8 @@ ul {
   padding-left: 1vw;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  padding: 0 0;
-  margin: 0;
-  background: $primaryDark;
-  max-width: 100vw;
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
-  z-index: 9;
-
-  a {
-    display: flex;
-    align-items: center;
-
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: $textBright underline;
-  }
-
-  a#anchor-logo {
-    flex-direction: row;
-    justify-content: flex-start;
-
-    flex: 3;
-
-  }
-
-  a.nav-link {
-    justify-content: center;
-
-    font-family: 'Comfortaa', cursive;
-    font-size: 2vh;
-    color: $textBright;
-    flex: 1;
-  }
-
-  h1 {
-    font-family: 'Caveat', cursive;
-    font-size: 4vh;
-    color: $textBright;
-  }
-}
-
 img.space-logo {
   margin: 1em;
   height: 7vh;
   width: auto;
-}
-
-footer {
-  padding: 2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  max-width: 100vw;
-  background: $primaryDark;
-
 }

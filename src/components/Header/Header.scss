@@ -1,0 +1,70 @@
+$text: rgb(55, 55, 55);
+$textBright: rgb(213, 226, 221);
+$background: rgb(213, 226, 221);
+$primary: rgb(248, 126, 64);
+$primaryDark: rgb(55, 55, 55);
+$secondary: rgb(239, 106, 48);
+$accent: rgb(78, 183, 180);
+$bRadius: .75rem;
+
+header {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  background: rgba(217, 217, 217, 0.05);
+
+  box-shadow: 6px 6px 18px 0 rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  position: sticky;
+
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0;
+  margin: 0;
+  //background: $primaryDark;
+  max-width: 98vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  z-index: 9;
+
+  span.head {
+    flex: 2;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: $textBright underline;
+  }
+
+  a#anchor-logo {
+    flex-direction: row;
+    justify-content: flex-start;
+
+    flex: 3;
+
+  }
+
+  a.nav-link {
+    justify-content: center;
+
+    font-family: 'Tektur', sans-serif;
+    font-size: 2.5vh;
+    color: $textBright;
+    flex: 1;
+  }
+
+  h1 {
+    font-family: 'Tektur', sans-serif;
+    font-size: 4vh;
+    color: $textBright;
+  }
+}
