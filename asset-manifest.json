@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03bd0dcd.css",
+    "main.js": "/static/js/main.8de6cb7c.js",
+    "static/media/shark-in-space.png": "/static/media/shark-in-space.22a042fd46fa408519af.png",
+    "static/media/space_17.png": "/static/media/space_17.b572eccd5cd48950e019.png",
+    "static/media/space_23.png": "/static/media/space_23.f517df5d6a79077d0d68.png",
+    "static/media/space_19.png": "/static/media/space_19.8771f0ad00228a0a0813.png",
+    "static/media/space_4_1.png": "/static/media/space_4_1.8771f0ad00228a0a0813.png",
+    "static/media/space_15.png": "/static/media/space_15.973e1db6395e63bfff1c.png",
+    "static/media/space_5.png": "/static/media/space_5.465e7da5d7da899cd94e.png",
+    "static/media/space_1_1.png": "/static/media/space_1_1.20ce4c57cd43d445cdfd.png",
+    "static/media/space_21.png": "/static/media/space_21.20ce4c57cd43d445cdfd.png",
+    "static/media/space_2_1.png": "/static/media/space_2_1.2b7fd11c9cb47a41f5dd.png",
+    "static/media/space_6.png": "/static/media/space_6.ae664a28844ff3264df2.png",
+    "static/media/space_7.png": "/static/media/space_7.7c0a0e2c136f6223f98a.png",
+    "static/media/space_20.png": "/static/media/space_20.04d486fe038307424b24.png",
+    "static/media/space_9.png": "/static/media/space_9.5f99e2f14b374261194e.png",
+    "static/media/space_24.png": "/static/media/space_24.3b3ce4707087f4b7ab6b.png",
+    "static/media/space_18.png": "/static/media/space_18.d7fd1d1351e397d0826a.png",
+    "static/media/space_8.png": "/static/media/space_8.7bd701e674473b80ee88.png",
+    "static/media/space_10.png": "/static/media/space_10.fa25c770a9c808eb6192.png",
+    "static/media/space_3_1.png": "/static/media/space_3_1.fa25c770a9c808eb6192.png",
+    "static/media/space_22.png": "/static/media/space_22.6c89ef19890b6a0ab99e.png",
+    "static/media/space_13.png": "/static/media/space_13.1d4710a4a202d10146e7.png",
+    "static/media/space_16.png": "/static/media/space_16.70958eef8c864382768b.png",
+    "static/media/space_14.png": "/static/media/space_14.6370592d03eee4abfb5b.png",
+    "static/media/space_11.png": "/static/media/space_11.18cb6d3d0363461cb12f.png",
+    "static/media/space_26.png": "/static/media/space_26.8f34f9eb2d2e26708543.png",
+    "static/media/space_12.png": "/static/media/space_12.af7b2aada33176396a4c.png",
+    "static/media/space_25.png": "/static/media/space_25.6182ec69c387adbc857d.png",
+    "static/media/logo.svg": "/static/media/logo.36a626a25d7c6fd75362a74eb02ade4c.svg",
+    "index.html": "/index.html",
+    "main.03bd0dcd.css.map": "/static/css/main.03bd0dcd.css.map",
+    "main.8de6cb7c.js.map": "/static/js/main.8de6cb7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03bd0dcd.css",
+    "static/js/main.8de6cb7c.js"
+  ]
+}
