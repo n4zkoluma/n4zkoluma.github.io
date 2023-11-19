@@ -1,0 +1,14 @@
+article {
+  margin: 2vw;
+  align-items: center;
+}
+article .textArea {
+  max-width: 55vw;
+}
+article img {
+  width: 50vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=article.css.map */

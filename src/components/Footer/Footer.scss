@@ -8,13 +8,26 @@ $accent: rgb(78, 183, 180);
 $bRadius: .75rem;
 
 footer {
-  padding: 2vh;
+  position: sticky;
+  color: $textBright;
+  padding: 2vh 0;
+  margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-end;
+  text-align: right;
+  justify-content: flex-end;
+  flex-direction: row;
 
+  min-height: 8vh;
+  width: 100vw;
   max-width: 100vw;
   background: $primaryDark;
 
+  a {
+    color: $textBright;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }

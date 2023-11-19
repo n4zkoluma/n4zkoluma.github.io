@@ -8,35 +8,20 @@ $accent: rgb(78, 183, 180);
 $bRadius: .75rem;
 
 body {
-  background: #25282e;
+  margin: 0;
+  width: 100vw;
+  font-family: 'Raleway SemiBold', sans-serif;
+  background: #fff;
 }
 
-div.App {
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    header {
-      position: sticky;
-      z-index: 9;
-      flex: 5;
+//.featuredNewsSectionArticle {
+//  background: linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), lightgray 50% / cover no-repeat;
+//  background-blend-mode: hard-light, normal;
+//}
+#featured-news {
+  margin: 5vh 3vw;
+}
 
-      min-width: 95vw;
-    }
+.imageCover {
 
-    div.bgGif{
-      margin: 0;
-      position: absolute;
-
-
-      background: no-repeat url("../../images/Home.gif");
-      background-size: 100% auto;
-
-      width: 100vw;
-      height: 100vh;
-
-      min-height: 400px;
-      max-width: 100vw!important;
-    }
-  }
 }

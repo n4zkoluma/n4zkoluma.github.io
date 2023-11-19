@@ -1,12 +1,16 @@
 import React from "react";
-import '../../global.css';
-class Footer extends React.Component{
+import './Footer.css';
+
+class Footer extends React.Component {
 
     render() {
         return (
             <footer>
-                123<br/>
-                © Цікава наука, 2023
+                <div>
+                    Для зворотнього зв'язку:<br/>
+                    <a href={"mailto:nvkolomiiets@gmail.com"}>nvkolomiiets@gmail.com</a>
+                </div>
+                <span style={{minWidth: '2vw'}}/>
             </footer>
         );
     }

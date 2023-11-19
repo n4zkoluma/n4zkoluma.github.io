@@ -2,13 +2,13 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 import './Home.css';
-import '../../global.css';
+import FeaturedNewsSection from "../../components/Articles/FeaturedNews/FeaturedNewsSection";
 
 function Home() {
     return (
         <div className={'Home'}>
             <Header/>
-            <div className={'bgGif'}/>
+            <FeaturedNewsSection/>
             <Footer/>
         </div>
     );

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: "Raleway SemiBold", sans-serif;
+  background: #fff;
+}
+
+#featured-news {
+  margin: 5vh 3vw;
+}
+
+/*# sourceMappingURL=Home.css.map */
