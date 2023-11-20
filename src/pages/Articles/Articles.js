@@ -11,7 +11,7 @@ import picture4 from "../../images/space_26.png";
 
 function Articles() {
 
-    document.title = "Всі Статті"
+    document.title = "Всі статті"
 
     return (
         <div>
