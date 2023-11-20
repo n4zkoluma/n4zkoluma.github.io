@@ -56,7 +56,7 @@ a:hover {
     line-height: normal !important;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .Home {
     min-height: 100vh;
     display: flex;
