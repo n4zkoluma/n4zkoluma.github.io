@@ -16,6 +16,7 @@ header {
 }
 header search {
   display: flex;
+  visibility: hidden;
   justify-content: center;
   align-items: center;
   flex: 1;

@@ -4,9 +4,11 @@ import Footer from "../Footer/Footer";
 import './article.css';
 
 function ArticleBlackHole() {
-    return (
 
-        <div>
+    document.title = "Виявлена найстаріша чорна діра"
+
+    return (
+        <div id={'articlePage'}>
             <Header/>
             <article>
                 <h1>Виявлена найстаріша чорна діра: науковці встановили, скільки їй років</h1>
@@ -43,8 +45,8 @@ function ArticleBlackHole() {
                 </div>
             </article>
             <Footer/>
-        </div>);
-
+        </div>
+    );
 }
 
 export default ArticleBlackHole;

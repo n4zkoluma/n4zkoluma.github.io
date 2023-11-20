@@ -1,38 +1,53 @@
-import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import React from "react";
+import NewsArticle from "../../components/Articles/NewsArticle/NewsArticle";
 import './Articles.css';
-import IndMoonExpl from '../../images/IndianMoonExplorer.webp';
 
-
-const ARTICLE_1 = () => {
-
-    return (
-        <div>
-            <article>
-                <section>
-                    <img src={IndMoonExpl} alt={'Індійський космічний зонд'}/>
-                </section>
-                <section className={'text'}>
-                    <h2>Індія здійснила успішну посадку на Місяць.</h2>
-                    <p>Індія успішно здійснила посадку місії на Місяць. Уточнюється, що країна посадила місію
-                        Chandrayaan-3.
-                        <br/>
-                        Про це повідомляє Індійська організація космічних досліджень і розробок, ISRO.</p>
-                    <p>«Chandrayaan-3 здійснила успішну м'яку посадку на Місяць!» – заявили в ISRO.</p>
-
-                    <p>За даними Space.com, Індія стала четвертою країною після СРСР, США та Китаю, яка здійснила
-                        посадку місії на Місяць.</p>
-                </section>
-            </article>
-        </div>
-    );
-}
+import picture1 from "../../images/space_24.png";
+import picture2 from "../../images/shark-in-space.png";
+import picture3 from "../../images/space_25.png";
+import picture4 from "../../images/space_26.png";
 
 const Articles = () => {
+
+    document.title = "Всі Статті"
+
     return (
         <div>
             <Header/>
-            <ARTICLE_1/>
+            <NewsArticle
+                pathToPic={picture1}
+                $altText={""}
+                $H1Text={"Вчені знайшли найстарішу чорну діру"}
+                $articleText={"Науковці виявили найстарішу чорну діру, яка утворилася вже через 470 млн років після Великого вибуху."}
+                ANCHOR={"/articles/BlackHole"}
+            />
+            <NewsArticle
+                pathToPic={picture2}
+                $altText={""}
+                $H1Text={"Акули за час існування облетіли Чумацький Шлях два рази"}
+                $articleText={"За цей час вони майже не змінились і пережили чотири масових вимирання живих істот на Землі."}
+                ANCHOR={"/articles/SpaceSharks"}
+            />
+            <NewsArticle
+                pathToPic={picture4}
+                $altText={""}
+                $H1Text={"Тривалість року на планетах"}
+                $articleText={"Планети Сонячної системи постійно рухаються по своїх орбітах і обертаються навколо своїх осей. " +
+                    "Всі планети обертаються навколо Сонця. Але час, потрібний для одного оберту навколо нашої центральної зірки, різний, пише Astronomy. " +
+                    "Деяким планетам для цього потрібні дні, а деяким століття."}
+                ANCHOR={"/articles/PlanetsSolarYears"}
+            />
+            <NewsArticle
+                pathToPic={picture3}
+                $altText={""}
+                $H1Text={"Земні електрони можуть утворювати воду на Місяці, - дослідження"}
+                $articleText={"Дослідження показало, що високоенергетичні електрони в плазмі Землі можуть сприяти утворенню води на поверхні Місяця. "}
+                ANCHOR={"/articles/WaterOnTheMoon"}
+
+                imgStyle={{objectPosition: 'center'}}
+            />
             <Footer/>
         </div>
     );

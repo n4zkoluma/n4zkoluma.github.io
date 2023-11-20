@@ -10,7 +10,7 @@ class NewsArticle extends React.Component {
                 <div className={'newsContainer'}>
                     <div className={'newsArticle'}>
                         <section className={'articleImage'}>
-                            <img src={this.props.pathToPic} alt={this.props.$altText}/>
+                            <img src={this.props.pathToPic} alt={this.props.$altText} style={this.props.imgStyle}/>
                         </section>
                         <section className={'articleText'}>
                             <h1 className={'articleHeader'}>{this.props.$H1Text}</h1>

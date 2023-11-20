@@ -1,6 +1,13 @@
+.Home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #featured-news {
   max-width: 95vw;
-  margin: 3.5vh 2.5vw 0.6vh;
+  margin: 0.75vh 3vw;
 }
 #featured-news #featuredNewsSection {
   display: flex;

@@ -5,6 +5,9 @@ import './Home.css';
 import FeaturedNewsSection from "../../components/Articles/FeaturedNews/FeaturedNewsSection";
 
 function Home() {
+
+    document.title = "Головна"
+
     return (
         <div className={'Home'}>
             <Header/>

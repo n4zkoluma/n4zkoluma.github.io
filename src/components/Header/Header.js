@@ -15,8 +15,8 @@ class Header extends React.Component {
                         <input type={'search'} name={'q'} placeholder={'Пошук..'}/>
                     </form>
                 </search>
-                <Link to={'/news'}>Новини</Link>
-                <Link to={'/'}>Медіа</Link>
+                <Link to={'/articles'}>Всі статті</Link>
+                <Link to={'/media'}>Медіа</Link>
             </header>
 
         );
