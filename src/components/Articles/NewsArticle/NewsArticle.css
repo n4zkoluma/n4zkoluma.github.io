@@ -37,6 +37,7 @@
   }
   div.newsArticle section.articleText h1.articleHeader, div.newsArticle section.articleText p.articleText, div.newsArticle section.articleText a {
     color: rgb(55, 55, 55);
+    font-size: 1.5em;
   }
   div.newsArticle section.articleText a {
     text-decoration: none;
