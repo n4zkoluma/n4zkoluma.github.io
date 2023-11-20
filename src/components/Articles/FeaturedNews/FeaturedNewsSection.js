@@ -15,7 +15,7 @@ class FeaturedNewsSection extends React.Component {
                 <div id={'featuredNewsSection'}>
                     <div className={'featuredNewsDiv'} id={'featuredNewsDiv1'}>
                         <div className={'featuredNewsSectionArticle'}>
-                            <Link to={'/articles/Black-Hole'}>
+                            <Link to={'/articles/BlackHole'}>
                                 <GradientImage imageSrc={image_1} imageAlt={''} id={'img1'}/>
                                 <figcaption>Вчені знайшли найстарішу чорну діру</figcaption>
                             </Link>
@@ -24,7 +24,7 @@ class FeaturedNewsSection extends React.Component {
 
                     <div className={'featuredNewsDiv'} id={'featuredNewsDiv2'}>
                         <div className={'featuredNewsSectionArticle'}>
-                            <Link to={'/articles/Space-Sharks'}>
+                            <Link to={'/articles/SpaceSharks'}>
                                 <GradientImage imageSrc={image_2} imageAlt={''} id={'img2'}/>
                                 <figcaption>Акули облетіли Чумацький Шлях двічі</figcaption>
                             </Link>
@@ -32,13 +32,13 @@ class FeaturedNewsSection extends React.Component {
                     </div>
                     <div className={'featuredNewsDiv'} id={'featuredNewsDiv3'}>
                         <div className={'featuredNewsSectionArticle'}>
-                            <Link to={'/articles/Planets-Solar-Years'}>
+                            <Link to={'/articles/PlanetsSolarYears'}>
                                 <GradientImage imageSrc={image_3} imageAlt={''} id={'img3'}/>
                                 <figcaption>Тривалість року на планетах</figcaption>
                             </Link>
                         </div>
                         <div className={'featuredNewsSectionArticle'} id={'featuredNewsDiv4'}>
-                            <Link to={'/articles/Water-on-the-Moon'}>
+                            <Link to={'/articles/WaterOnTheMoon'}>
                                 <GradientImage imageSrc={image_4} imageAlt={''} id={'img4'}/>
                                 <figcaption>Земля сприяє утворенню<br/>води на Місяці</figcaption>
                             </Link>

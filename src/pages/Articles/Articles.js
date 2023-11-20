@@ -9,7 +9,7 @@ import picture2 from "../../images/shark-in-space.png";
 import picture3 from "../../images/space_25.png";
 import picture4 from "../../images/space_26.png";
 
-const Articles = () => {
+function Articles() {
 
     document.title = "Всі Статті"
 
