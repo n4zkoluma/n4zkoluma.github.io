@@ -2,7 +2,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import './article.css';
 
-import img1 from '../../images/space_25.png';
+import img1 from '../../images/earth-moon.png';
 
 function ArticleWaterOnTheMoon() {
 

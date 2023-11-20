@@ -76,7 +76,7 @@
     height: 30vh;
     border-radius: 0.75rem;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
   }
   div.newsArticle section.articleText {
     flex: 3;

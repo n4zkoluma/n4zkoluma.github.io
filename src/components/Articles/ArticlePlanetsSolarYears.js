@@ -2,7 +2,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import './article.css';
 
-import img from '../../images/space_26.png';
+import img from '../../images/planets.png';
 
 function ArticlePlanetsSolarYears() {
 

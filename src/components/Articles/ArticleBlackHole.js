@@ -1,4 +1,4 @@
-import img from '../../images/space_24.png';
+import img from '../../images/black-hole.png';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import './article.css';
@@ -14,7 +14,7 @@ function ArticleBlackHole() {
                 <h1>Виявлена найстаріша чорна діра: науковці встановили, скільки їй років</h1>
                 <p>Науковці виявили найстарішу чорну діру, яка утворилася вже через 470 млн років після Великого
                     вибуху.</p>
-                <img src={img}/>
+                <img src={img} alt={'Чорна діра'}/>
                 <div className={'textArea'}>
                     <p>
                         Науковці виявили найстарішу чорну діру, що утворилася всього через 470 млн років після Великого
