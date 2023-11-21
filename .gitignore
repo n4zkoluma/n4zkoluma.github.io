@@ -18,10 +18,18 @@
 .env.test.local
 .env.production.local
 .idea/discord.xml
-src/*.map
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.idea/*
 /.idea
+/src/components/Articles/article.css.map
+/src/pages/Articles/Articles.css.map
+/src/components/Articles/FeaturedNews/FeaturedNewsSection.css.map
+/src/pages/Feedback/Feedback.css.map
+/src/components/Footer/Footer.css.map
+/src/components/Header/Header.css.map
+/src/pages/Home/Home.css.map
+/src/pages/Media/Media.css.map
+/src/components/Articles/NewsArticle/NewsArticle.css.map

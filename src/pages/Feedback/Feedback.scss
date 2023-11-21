@@ -1,0 +1,63 @@
+$text: rgb(55, 55, 55);
+$textBright: rgb(213, 226, 221);
+$background: rgb(213, 226, 221);
+$primary: rgb(248, 126, 64);
+$primaryDark: rgb(55, 55, 55);
+$secondary: rgb(239, 106, 48);
+$accent: rgb(78, 183, 180);
+$bRadius: .75rem;
+
+#FeedbackPage {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    padding: 1vw;
+    max-width: 70vw;
+
+    flex: 3;
+
+    label {
+      font-size: 1.5em;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+
+      p {
+        text-align: center;
+      }
+
+      input, textarea {
+        min-width: 20vw;
+        max-width: 20vw;
+        font-family: "Raleway", sans-serif;
+        min-height: 2vh;
+        outline: none;
+        font-size: 0.8em;
+
+      }
+
+      textarea {
+        min-height: 10vh;
+        max-height: 27vh;
+        height: max-content;
+      }
+    }
+  }
+}
+
+dialog {
+  border: 2px solid black;
+
+  p {
+    font-size: 1em;
+    font-weight: 400;
+  }
+}

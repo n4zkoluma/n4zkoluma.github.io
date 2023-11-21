@@ -84,7 +84,7 @@
     text-decoration: rgb(213, 226, 221) underline;
   }
   a.imgHome {
-    flex: 0.5;
+    flex: 1;
   }
 }
 
