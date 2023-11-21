@@ -7,63 +7,110 @@ $secondary: rgb(239, 106, 48);
 $accent: rgb(78, 183, 180);
 $bRadius: .75rem;
 
-body {
-  overflow-x: hidden;
-}
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
 
-header {
-  font-family: 'Raleway', sans-serif;
-  background: $primaryDark;
-  display: flex;
-  flex-direction: row;
-
-  padding: 1vh 0;
-  margin: 0;
-  width: 100vw;
-  max-width: 100vw;
-  height: 10vh;
-
-  justify-content: center;
-
-  search {
+  header {
+    font-family: 'Raleway', sans-serif;
+    background: $primaryDark;
     display: flex;
-    visibility: hidden;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    min-width: 100vw;
+    justify-content: space-between;
 
-    flex: 1;
-    input {
-      height: 4vh;
-      width: 15vw;
-      border: transparent;
-      border-radius: 5px;
-      padding-left: 1vw;
-      font-family: 'Raleway', sans-serif;
-      font-size: 1em;
+    padding: 1vh 0;
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+
+    search {
+      display: none;
     }
-    :focus-visible {
-      outline: none;
-      font-family: 'Raleway', sans-serif;
-      font-size: 1em;
+
+    a {
+      flex: 1;
+      color: $textBright;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      text-decoration: none;
     }
   }
 
-  a {
-    flex: 1;
-    color: $textBright;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: $textBright underline;
+  a.imgHome {
+    flex: 0.5;
   }
 }
 
-a.imgHome{
-  flex: 0.3;
+@media (min-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    font-family: 'Raleway', sans-serif;
+    background: $primaryDark;
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    justify-content: space-between;
+
+    padding: 1vh 0;
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+
+    //justify-content: center;
+
+    search {
+      display: flex;
+      visibility: hidden;
+      justify-content: center;
+      align-items: center;
+
+      flex: 2;
+
+      input {
+        height: 4vh;
+        width: 15vw;
+        border: transparent;
+        border-radius: 5px;
+        padding-left: 1vw;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+      }
+
+      :focus-visible {
+        outline: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+      }
+    }
+
+    a {
+      flex: 1;
+      color: $textBright;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: $textBright underline;
+    }
+  }
+
+  a.imgHome {
+    flex: 0.5;
+  }
+
 }

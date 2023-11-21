@@ -7,7 +7,7 @@ class Footer extends React.Component {
         return (
             <footer>
                 <div>
-                    Для зворотнього зв'язку:<br/>
+                    Контакти:<br/>
                     <a href={"mailto:nvkolomiiets@gmail.com"}>nvkolomiiets@gmail.com</a>
                 </div>
                 <span style={{minWidth: '2vw'}}/>

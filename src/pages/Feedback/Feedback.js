@@ -1,9 +1,9 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-const Maps = () => {
+const Feedback = () => {
 
-    document.title = "Мапи"
+    document.title = "Зворотній зв'язок"
 
   return(
     <div>
@@ -14,4 +14,4 @@ const Maps = () => {
   );
 }
 
-export default Maps;
+export default Feedback;

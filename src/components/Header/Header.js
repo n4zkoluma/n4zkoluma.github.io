@@ -10,13 +10,9 @@ class Header extends React.Component {
                 <Link to={'/'} className={'imgHome'}>
                     <img src={Logo} alt={'Logo'}/>
                 </Link>
-                <search>
-                    <form action={"http://www.google.com/search"} method={"get"}>>
-                        <input type={'search'} name={'q'} placeholder={'Пошук..'}/>
-                    </form>
-                </search>
                 <Link to={'/articles'}>Всі статті</Link>
                 <Link to={'/media'}>Медіа</Link>
+                <Link to={'/feedback'}>Зворотній зв'язок</Link>
             </header>
 
         );

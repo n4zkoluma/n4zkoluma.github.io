@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Media from "./pages/Media/Media";
-import Maps from "./pages/Maps/Maps";
+import Feedback from "./pages/Feedback/Feedback";
 import Articles from "./pages/Articles/Articles";
 import Home from "./pages/Home/Home";
 import ArticleBlackHole from "./components/Articles/ArticleBlackHole";
@@ -19,7 +19,7 @@ function AppRouter() {
             <Routes>
                 <Route index element={<Home/>}/>
                 <Route path="/media" element={<Media />}/>
-                <Route path="/maps" element={<Maps />}/>
+                <Route path="/feedback" element={<Feedback />}/>
                 <Route path="/articles" element={<Articles />}/>
 
                 <Route path={"/articles/BlackHole"} element={<ArticleBlackHole />}/>
