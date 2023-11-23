@@ -9,7 +9,7 @@ import shark_in_space from "../../images/shark-in-space.png";
 import earth_moon from "../../images/earth-moon.png";
 import planets from "../../images/planets.png";
 import starlink_sat from "../../images/starlink-sat.png";
-import juice_zond from "../../images/juice-zond.png";
+import juice_station from "../../images/juice-zond.png";
 import moon from "../../images/moon.png";
 import chandrayaan from "../../images/chandrayaan-3.png";
 import webb from "../../images/james-webb-1.png";
@@ -52,11 +52,11 @@ function Articles() {
                 $anchor={"/articles/WaterOnTheMoon"}
             />
             <NewsArticle
-                $pathToPic={juice_zond}
+                $pathToPic={juice_station}
                 $altText={""}
-                $H1Text={"Зонд JUICE здійснив один із найбільших маневрів на шляху до Юпітера"}
-                $articleText={"Космічний корабель JUICE від Європейського космічного агентства (ESA) здійснив один із найбільших і найважливіших маневрів у своїй восьмирічній подорожі до планети Юпітер."}
-                $anchor={"/articles/ZondJUICE"}
+                $H1Text={"АКС JUICE здійснила один із найбільших маневрів на шляху до Юпітера"}
+                $articleText={"Автоматична космічна станція JUICE від Європейського космічного агентства (ESA) здійснила один із найбільших і найважливіших маневрів у своїй восьмирічній подорожі до планети Юпітер."}
+                $anchor={"/articles/StationJUICE"}
             />
             <NewsArticle
                 $pathToPic={webb}
@@ -67,7 +67,7 @@ function Articles() {
             />
             <NewsArticle
                 $pathToPic={shark_in_space}
-                $altText={""}
+                $altText={"Акула в космосі"}
                 $H1Text={"Акули за час існування облетіли Чумацький Шлях два рази"}
                 $articleText={"За цей час вони майже не змінились і пережили чотири масових вимирання живих істот на Землі."}
                 $anchor={"/articles/SpaceSharks"}

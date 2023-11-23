@@ -38,9 +38,9 @@ function Feedback() {
                         />
                     </label>
                 </div>
-
-                <input type={"submit"} id={"submit"} style={{margin: "2vw"}}/>
-
+                <label>
+                    <input type={"submit"} id={"submit"}/>
+                </label>
             </form>
 
             <dialog>
