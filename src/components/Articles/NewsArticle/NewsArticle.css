@@ -43,7 +43,7 @@
     text-decoration: none;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 450px) {
   div.containerForContainer {
     display: flex;
     flex-direction: column;
@@ -71,9 +71,10 @@
     justify-content: center;
   }
   div.newsArticle section.articleImage img {
+    aspect-ratio: 1/1 !important;
     margin-right: 5vh;
     width: 15vw;
-    height: 30vh;
+    height: 15vw;
     border-radius: 0.75rem;
     object-fit: cover;
     object-position: center;

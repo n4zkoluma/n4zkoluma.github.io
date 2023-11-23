@@ -7,66 +7,139 @@ $secondary: rgb(239, 106, 48);
 $accent: rgb(78, 183, 180);
 $bRadius: .75rem;
 
-#FeedbackPage {
-  min-height: 100vh;
+@media (max-width: 650px) {
+  #FeedbackPage {
+    min-height: 100vh;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  form {
     display: flex;
     flex-direction: column;
-    margin: 0.5vw;
-    padding: 1vw;
-    max-width: 70vw;
+    justify-content: space-between;
+    align-items: center;
 
-    flex: 3;
-
-    label {
-      font-size: 1.5em;
-      font-weight: 400;
+    form {
       display: flex;
       flex-direction: column;
+      margin: 0.5vw;
+      padding: 1vw;
+      max-width: 70vw;
 
-      p {
-        text-align: center;
+      flex: 3;
+
+      label {
+        font-size: 1.5em;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+
+        p {
+          text-align: center;
+        }
+
+        input, textarea {
+          min-width: 60vw;
+          max-width: 65vw;
+          width: 60vw;
+          font-family: "Raleway", sans-serif;
+          min-height: 2vh;
+          outline: none;
+          font-size: 0.75em;
+
+        }
+
+        textarea {
+          min-height: 10vh !important;
+          max-height: 30vh !important;
+          width: 60vw !important;
+
+          font-size: 0.5em;
+        }
+
+        input#submit {
+          align-self: center;
+          margin: 2vw 0;
+          width: 50vw;
+          height: 5vh;
+          font-family: 'Raleway', sans-serif;
+          font-size: 1em;
+        }
       }
+    }
+  }
 
-      input, textarea {
-        min-width: 20vw;
-        max-width: 20vw;
-        font-family: "Raleway", sans-serif;
-        min-height: 2vh;
-        outline: none;
-        font-size: 0.8em;
+  dialog {
+    border: 2px solid black;
 
-      }
-
-      textarea {
-        min-height: 10vh;
-        max-height: 27vh;
-        height: max-content;
-      }
-
-      input#submit {
-        align-self: center;
-        margin: 2vw 0;
-        width: 10vw;
-        height: 5vh;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1em;
-      }
+    p {
+      font-size: 1em;
+      font-weight: 400;
     }
   }
 }
 
-dialog {
-  border: 2px solid black;
+@media (min-width: 650px) {
+  #FeedbackPage {
+    min-height: 100vh;
 
-  p {
-    font-size: 1em;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: 0.5vw;
+      padding: 1vw;
+      max-width: 70vw;
+
+      flex: 3;
+
+      label {
+        font-size: 1.5em;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          text-align: center;
+        }
+
+        input, textarea {
+          min-width: 20vw;
+          max-width: 20vw;
+          font-family: "Raleway", sans-serif;
+          min-height: 2vh;
+          outline: none;
+          font-size: 0.8em;
+
+        }
+
+        textarea {
+          min-height: 10vh;
+          max-height: 27vh;
+          height: max-content;
+        }
+
+        input#submit {
+          align-self: center;
+          margin: 2vw 0;
+          width: 10vw;
+          height: 5vh;
+          font-family: 'Raleway', sans-serif;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  dialog {
+    border: 2px solid black;
+
+    p {
+      font-size: 1em;
+      font-weight: 400;
+    }
   }
 }

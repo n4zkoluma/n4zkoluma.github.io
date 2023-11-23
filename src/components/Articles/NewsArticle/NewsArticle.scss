@@ -64,7 +64,7 @@ $bRadius: .75rem;
 }
 
 
-@media (min-width: 750px) {
+@media (min-width: 450px) {
   div.containerForContainer {
     display: flex;
     flex-direction: column;
@@ -97,9 +97,10 @@ $bRadius: .75rem;
       justify-content: center;
 
       img {
+        aspect-ratio: 1/1!important;
         margin-right: 5vh;
         width: 15vw;
-        height: 30vh;
+        height: 15vw;
         border-radius: $bRadius;
         object-fit: cover;
         object-position: center;

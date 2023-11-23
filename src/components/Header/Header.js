@@ -7,12 +7,12 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <Link to={'/'} className={'imgHome'}>
+                <Link to={'/'} id={'imgHome'} className={'navbar'}>
                     <img src={Logo} alt={'Logo'}/>
                 </Link>
-                <Link to={'/articles'}>Всі статті</Link>
-                <Link to={'/media'}>Медіа</Link>
-                <Link to={'/feedback'}>Зворотній зв'язок</Link>
+                <Link to={'/articles'} className={'navbar'}>Всі статті</Link>
+                <Link to={'/media'} className={'navbar'}>Медіа</Link>
+                <Link to={'/feedback'} className={'navbar'}>Зворотній зв'язок</Link>
             </header>
 
         );

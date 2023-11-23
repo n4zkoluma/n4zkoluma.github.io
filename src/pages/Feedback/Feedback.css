@@ -1,55 +1,114 @@
-#FeedbackPage {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+@media (max-width: 650px) {
+  #FeedbackPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #FeedbackPage form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    padding: 1vw;
+    max-width: 70vw;
+    flex: 3;
+  }
+  #FeedbackPage form label {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  #FeedbackPage form label p {
+    text-align: center;
+  }
+  #FeedbackPage form label input, #FeedbackPage form label textarea {
+    min-width: 60vw;
+    max-width: 65vw;
+    width: 60vw;
+    font-family: "Raleway", sans-serif;
+    min-height: 2vh;
+    outline: none;
+    font-size: 0.75em;
+  }
+  #FeedbackPage form label textarea {
+    min-height: 10vh !important;
+    max-height: 30vh !important;
+    width: 60vw !important;
+    font-size: 0.5em;
+  }
+  #FeedbackPage form label input#submit {
+    align-self: center;
+    margin: 2vw 0;
+    width: 50vw;
+    height: 5vh;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+  }
+  dialog {
+    border: 2px solid black;
+  }
+  dialog p {
+    font-size: 1em;
+    font-weight: 400;
+  }
 }
-#FeedbackPage form {
-  display: flex;
-  flex-direction: column;
-  margin: 0.5vw;
-  padding: 1vw;
-  max-width: 70vw;
-  flex: 3;
-}
-#FeedbackPage form label {
-  font-size: 1.5em;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-}
-#FeedbackPage form label p {
-  text-align: center;
-}
-#FeedbackPage form label input, #FeedbackPage form label textarea {
-  min-width: 20vw;
-  max-width: 20vw;
-  font-family: "Raleway", sans-serif;
-  min-height: 2vh;
-  outline: none;
-  font-size: 0.8em;
-}
-#FeedbackPage form label textarea {
-  min-height: 10vh;
-  max-height: 27vh;
-  height: max-content;
-}
-#FeedbackPage form label input#submit {
-  align-self: center;
-  margin: 2vw 0;
-  width: 10vw;
-  height: 5vh;
-  font-family: "Raleway", sans-serif;
-  font-size: 1em;
-}
-
-dialog {
-  border: 2px solid black;
-}
-dialog p {
-  font-size: 1em;
-  font-weight: 400;
+@media (min-width: 650px) {
+  #FeedbackPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #FeedbackPage form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    padding: 1vw;
+    max-width: 70vw;
+    flex: 3;
+  }
+  #FeedbackPage form label {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+  #FeedbackPage form label p {
+    text-align: center;
+  }
+  #FeedbackPage form label input, #FeedbackPage form label textarea {
+    min-width: 20vw;
+    max-width: 20vw;
+    font-family: "Raleway", sans-serif;
+    min-height: 2vh;
+    outline: none;
+    font-size: 0.8em;
+  }
+  #FeedbackPage form label textarea {
+    min-height: 10vh;
+    max-height: 27vh;
+    height: max-content;
+  }
+  #FeedbackPage form label input#submit {
+    align-self: center;
+    margin: 2vw 0;
+    width: 10vw;
+    height: 5vh;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+  }
+  dialog {
+    border: 2px solid black;
+  }
+  dialog p {
+    font-size: 1em;
+    font-weight: 400;
+  }
 }
 
 /*# sourceMappingURL=Feedback.css.map */

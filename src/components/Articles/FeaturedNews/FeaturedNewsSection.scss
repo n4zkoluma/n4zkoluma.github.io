@@ -15,6 +15,20 @@ a:hover {
   text-decoration: underline $textBright;
 }
 
+#featuredNewsDiv3 {
+  margin-top: -0.5vh;
+}
+
+#img4 {
+  margin-top: 0.5vh;
+}
+
+#featuredNewsDiv4 figcaption {
+  top: -5vh !important;
+  line-height: normal !important;
+}
+
+
 @media (max-width: 450px) {
   .Home {
     min-height: 100vh;
@@ -71,14 +85,13 @@ a:hover {
     }
 
     #featuredNewsDiv4 figcaption {
-      top: -4vh !important;
+      top: -5vh !important;
       line-height: normal !important;
     }
   }
-
 }
 
-@media (min-width: 750px) {
+@media (min-width: 450px) {
 
   .Home {
     min-height: 100vh;
